@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { signIn } from "next-auth/react";
-// import { GithubIcon } from "lucide-react";
+import { GithubIcon } from "lucide-react";
 export default function GithubSigninButton() {
   return (
     <Button
@@ -12,7 +12,7 @@ export default function GithubSigninButton() {
       variant="outline"
       size="icon"
     >
-      {/* <GithubIcon className="w-4 h-4" /> */}
+      <GithubIcon className="w-4 h-4" />
     </Button>
   );
 }
